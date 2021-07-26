@@ -85,7 +85,6 @@ Plug 'weirongxu/plantuml-previewer.vim' " Preview Plant UML diagrams
 Plug 'tyru/open-browser.vim' " Direct dependency of plantuml-previewer.vim
 
 " Syntax highlighting
-Plug 'MaxMEllon/vim-jsx-pretty' " Jsx styling
 Plug 'vim-syntastic/syntastic' " Syntax checker
 Plug 'lervag/vimtex' " LaTeX syntax highlighting
 Plug 'rust-lang/rust.vim' " Rust syntax highlighting
