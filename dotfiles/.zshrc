@@ -28,14 +28,14 @@ source $ZSH/oh-my-zsh.sh
 zstyle :prompt:pure:git:stash show yes
 
 zstyle :prompt:pure:path color '#ffdf87' # 222
-zstyle :prompt:pure:git:branch color '#afffff' # 159
+zstyle :prompt:pure:git:branch color '#87d7af' # 115
 zstyle :prompt:pure:git:arrow color '#afffff' # 159
 zstyle :prompt:pure:git:stash color '#afffff' # 159
 zstyle :prompt:pure:git:action color '#d7875f' # 173
 zstyle :prompt:pure:git:dirty color '#d7875f' # 173
 zstyle :prompt:pure:virtualenv color '#5f875f' # 65
 zstyle :prompt:pure:execution_time color '#767676' # 243
-zstyle :prompt:pure:prompt:success color '#5f875f' # 65
+zstyle :prompt:pure:prompt:success color '#5fafaf' # 73
 zstyle :prompt:pure:prompt:error color '#d7875f' # 173
 
 case "$TERM" in
