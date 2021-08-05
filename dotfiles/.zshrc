@@ -1,5 +1,14 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/home/adi/.oh-my-zsh"
+ case `uname` in
+  Darwin)
+    export ZSH="/Users/adi/.oh-my-zsh"
+  ;;
+  Linux)
+    # commands for Linux go here
+    export ZSH="/home/adi/.oh-my-zsh"
+    source ~/.zshenv
+  ;;
+esac
 
 ZSH_THEME=""
 
@@ -126,8 +135,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
 
 fpath=(~/.zsh/completion $fpath)
-
-source ~/.zshenv
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
