@@ -94,6 +94,7 @@ Plug 'evanleck/vim-svelte' " Svelte syntax highlighting
 Plug 'aklt/plantuml-syntax' " Plant UML syntax highlighting
 Plug 'leafgarland/typescript-vim' " Typescript syntax highlighting
 Plug 'peitalin/vim-jsx-typescript' " Jsx in Typescript syntax highlighting
+Plug 'jxnblk/vim-mdx-js' " Imperfect mdx highlighting
 
 " Fix Typescript syntax highlighting issues
 Plug 'git@github.com:pappasam/typescript-vim.git', {
