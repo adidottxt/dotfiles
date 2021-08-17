@@ -256,8 +256,8 @@ nnoremap <leader>f :FiletypeFormat<cr>
 vnoremap <leader>f :FiletypeFormat<cr>
 
 " Trying copy paste for Linux
-map <C-c> "+y<CR>
-map <C-v> "+p<CR>
+map <A-c> "+y<CR>
+map <A-v> "+p<CR>
 
 " open NERDTree with Ctrl+t
 map <C-t> :NERDTreeToggle<CR>
@@ -289,8 +289,8 @@ vnoremap <expr> <Down>
       \ v:count == 0 ? 'g<Down>' : '<Down>'
 
 " Nerdcommenter toggle
-vmap <C-x> <plug>NERDCommenterToggle
-nmap <C-x> <plug>NERDCommenterToggle
+vmap <C-c> <plug>NERDCommenterToggle
+nmap <C-c> <plug>NERDCommenterToggle
 
 " coc.nvim key bindings
 nmap <silent> gd <Plug>(coc-definition)
