@@ -251,6 +251,10 @@ noremap <C-z> zO
 noremap ç "+y
 noremap √ "+p
 
+" Easy copy paste between tmux panes with vim for Linux
+noremap <S-y> "+y
+noremap <S-p> "+p
+
 " FiletypeFormat: remap leader f to do filetype formatting
 nnoremap <leader>f :FiletypeFormat<cr>
 vnoremap <leader>f :FiletypeFormat<cr>
